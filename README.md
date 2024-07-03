@@ -39,7 +39,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/algerian-forest-fire-prediction.git
+   git clone https://github.com/Utkgitdev-07/algerian-forest-fire-prediction.git
    cd algerian-forest-fire-prediction
 
 2.**Install the required dependencies:**
