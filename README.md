@@ -42,16 +42,28 @@ To get started with the project, follow these steps:
    git clone https://github.com/Utkgitdev-07/algerian-forest-fire-prediction.git
    cd algerian-forest-fire-prediction
 
-2.**Install the required dependencies:**
+### Step 2:Create Environment & Install the required packages 
+In Powershell
+
+1) python -m venv env
+2) \env\Scripts\activate
+
+Install the dependencies listed in the requirements.txt file.
+
 pip install -r requirements.txt
 
-3. **To Run:**
 
-python application.py
-Open your browser and navigate to:
+### Step 3: Run the Flask application
+To start the Flask application, run:
 
-http://127.0.0.1:5000/predictdata
-The application will prompt for data input and display the predicted fwi prediction.
+python app.py
+
+
+### Step 4: Access the Flask application
+Open a new tab in your browser and paste the following URL:
+https://{your_url} for home page and https://{your_url}/predictdata for prediction
+Replace {your_url} with your specific URL.
+
 
 ## Train the model:
 Use the notebooks in the notebooks/ directory to preprocess the data and train the machine learning models.
